@@ -1,7 +1,5 @@
 import os
-import time
 import  requests
-import json
 
 base_url = "https://services.nvd.nist.gov/rest/json/cves/2.0"
 api_keys= os.environ.get("NVD_API_KEYS")
