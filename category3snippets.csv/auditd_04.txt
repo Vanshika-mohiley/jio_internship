@@ -1,0 +1,8 @@
+# /etc/audit/auditd.conf(excerpt)
+
+max_log_file_action:keep_logs
+space_left_action:email
+admin_space_left_action:halt
+disk_full_action:ignore
+disk_error_action:syslog
+log_group:adm
