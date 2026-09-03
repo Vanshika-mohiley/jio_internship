@@ -21,7 +21,7 @@ def render_line(config_type:str ,parameter: str ,value:str) ->str:
     else:
         raise ValueError(f"unknown config type : {config_type}")
 
-with open(inputcsv, newline="",encoding= "utf-8") as f:
+with open(inputcsv, newline="") as f:
     rows = list(csv.DictReader(f))
     
 default_by_type = {}
