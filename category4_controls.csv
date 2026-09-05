@@ -1,0 +1,28 @@
+item_id,manifest_type,field,secure_value,insecure_value,short_description,cis_control_id,cis_remediation_notes
+pod_01,pod_spec,privileged,FALSE,TRUE,Prevents the container from running with full host-level access instead of a sandboxed container,5.2.2,Add policies to each namespace in the cluster which has user workloads to restrict the admission of privileged containers as they have access to all Linux Kernel capabilities and devices. A container running with full privileges can do almost everything that the host can do.
+pod_02,pod_spec,hostPID,FALSE,TRUE,Prevents the container from seeing and potentially interacting with every process on the host machine,5.2.3,"Configure the Admission Controller to restrict the admission of hostPID containers .A container running in the host's PID namespace can inspect processes running outside the container  which can be used to
+escalate privileges of the container."
+pod_03,pod_spec,hostNetwork,FALSE,TRUE,Prevents the container from sharing the host's network namespace directly,5.2.5,Add policies to each namespace in the cluster which has user workloads to restrict the admission of hostNetwork containers as a container running in the host's network namespace could access the local loopback device and access network traffic to and from other pods.
+pod_04,pod_spec,runAsNonRoot,TRUE,FALSE,Ensures the container process runs as a non-root user instead of root inside the container,5.2.7,"Create a policy for each namespace in the cluster that ensures  
+MustRunAsNonRoot with the range of UIDs not including 0, is set. Containers which run as the root user, have a escalated likelihood of
+container breakout."
+pod_05,pod_spec,allowPrivilegeEscalation,FALSE,TRUE,Prevents a process from gaining more privileges than its parent process had,5.2.6,"Add policies to each namespace in the cluster to restrict the
+admission of containers with securityContext: allowPrivilegeEscalation: true such container may have processes that can gain more privileges than their parent."
+pod_06,pod_spec,resources_defined,TRUE,FALSE,Ensures CPU/memory limits are set so one container cannot starve resources from others on the node,5.6.1,Limiting the scope of user permissions can reduce the impact of mistakes or malicious activities. 
+rbac_01,rbac,verbs,"get,list,watch",*,Grants only the specific API actions needed instead of unrestricted access to all actions,5.1.2,"Access to these verbs should be restricted to the smallest possible group of users to reduce the risk of
+privilege escalation."
+rbac_02,rbac,resources,"pods,configmaps",*,Grants access only to the specific resource types needed instead of every resource type in the cluster,1.2.7,"Edit the API server pod specification file on the Control Plane node and set the --authorization-mode
+parameter to a value that includes Node. The Node authorization mode only allows kubelets to read Secret, ConfigMap,
+PersistentVolume, and PersistentVolumeClaim objects associated with their nodes."
+rbac_03,rbac,secrets_verbs,get,*,Limits what can be done with Secrets specifically -- broad access to secrets is a common path to credential theft,5.1.2,"Inappropriate access to secrets stored within the Kubernetes cluster can allow for an
+attacker to gain additional access to the cluster or external resources with secret credentials.hence, restrict access to secret objects in the cluster by removing get, list, and watch permissions."
+rbac_04,rbac,subject_binding,ServiceAccount:app-sa,Group:system:authenticated,Binds the role to one specific service account instead of every authenticated user/service in the cluster,1.2.12,"When a pod is created, if a service account is not specify, it is automatically assigned the default service account in the same namespace. Make  own service account and let the API server manage its security tokens."
+rbac_05,rbac,role_ref_name,app-reader,cluster-admin,Binds to a narrowly scoped custom role instead of Kubernetes' built-in all-powerful cluster-admin role,5.1.1," Cluster-admin provide wide-ranging privileges like  allow super-user access to perform any action on any resource,which should only be applied where absolutely necessary."
+netpol_01,networkpolicy,policy_types,"Ingress,Egress",Ingress,Ensures both ingress AND egress rules are actually enforced -- an egress rule with no matching policyType silently does nothing,5.3.1,"If the CNI plugin in use does not support network policies, consideration should be given to making use of a different plugin, or finding an alternate mechanism for restricting traffic in the Kubernetes cluster."
+netpol_02,networkpolicy,ingress_from,specific,open,Restricts which pods can send traffic in instead of allowing traffic from any source,5.3.2,"Network segmentation is important to ensure that containers can communicate only with those they are supposed
+to as running different applications on the same Kubernetes cluster creates a risk of one compromised application attacking a neighbor. "
+netpol_03,networkpolicy,egress_to,specific,open,Restricts which destinations the pod can send traffic to instead of allowing traffic to anywhere,5.3.2,"When a network policy is introduced to a given namespace, all traffic not allowed by the policy is denied. However, if there are no network policies in a namespace all traffic will be allowed into and out of the pods in that
+namespace."
+netpol_04,networkpolicy,podSelector_scope,specific,open,Scopes the policy to the specific workload it's meant to protect instead of applying broadly to all pods in the namespace,1.1.6,"The scheduler pod specification file controls various parameters that set the behavior of
+the kube-scheduler service in the master node, file ownership should set to
+maintain the integrity of the file. "
