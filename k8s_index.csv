@@ -1,0 +1,16 @@
+id,manifest_type,file_path,cis_control_id,expected_finding
+k8s_01,pod_spec,pod_01.yaml,5.2.2,"securityContext.privileged is set to true, violating least-privilege container policy"
+k8s_02,pod_spec,pod_02.yaml,5.2.3,spec.hostPID set to true
+k8s_03,pod_spec,pod_03.yaml,5.2.5,spec.hostNetwork set to true
+k8s_04,pod_spec,pod_04.yaml,5.2.7,securityContext.runASnonRoot is set to true
+k8s_05,pod_spec,pod_05.yaml,5.2.6,securityContext.allowPrivilegeEscalation: true should be false
+k8s_06,pod_spec,pod_06.yaml,5.6.1,resources not defined of container
+k8s_07,rbac,rbac_01.yaml,5.1.3,"verbs set to * instead of something like get,list,watch"
+k8s_08,rbac,rbac_02.yaml,5.1.3,"resources set to * and not like pods,configmaps"
+k8s_09,rbac,rbac_03.yaml,5.1.2,secret verbs set to * instead of get
+k8s_10,rbac,rbac_04.yaml,1.2.12,subject kind set to group and name set to system:authenticated
+k8s_11,rbac,rbac_05.yaml,5.1.1,roleref name set to cluster-admin and not app-reader
+k8s_12,networkpolicy,netpol_01.yaml,5.3.1,"policytype set to ingress instead of ingress,egress"
+k8s_13,networkpolicy,netpol_02.yaml,5.3.2,ingressfrom set to open and not speficied
+k8s_14,networkpolicy,netpol_03.yaml,5.3.2,egressto not specified and set to open
+k8s_15,networkpolicy,netpol_04.yaml,5.3.2,podSelector not specified

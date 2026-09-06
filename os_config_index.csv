@@ -1,0 +1,26 @@
+id,config_source,file_path,cis_control_id,expected_finding
+os_01,/etc/audit/auditd.conf,auditd_01.txt,6.2.2.2,max_log_file_action is set to ignore rather that keep_logs
+os_02,/etc/audit/auditd.conf,auditd_02.txt,6.2.2.4,space_left_action is set to ignore rather than email
+os_03,/etc/audit/auditd.conf,auditd_03.txt,6.2.2.4,admin_space_left_action is set to ignore rather than halt
+os_04,/etc/audit/auditd.conf,auditd_04.txt,6.2.2.3,disk_full_action set to ignore and not halt
+os_05,/etc/audit/auditd.conf,auditd_05.txt,6.2.2.3,disk_error_action set to ignore rather than syslog
+os_06,/etc/audit/auditd.conf,auditd_01.txt,6.2.4.4,log_group set to root rather than adm
+os_07,/etc/ssh/sshd_config,sshd_01.txt,5.1.21,permitrootlogin set to yes and not no
+os_08,/etc/ssh/sshd_config,sshd_02.txt,5.1.23,PasswordAuthentication set to yes and it should be no
+os_09,/etc/ssh/sshd_config,sshd_03.txt,5.1.11,X11 forwarding set to yes instead of no
+os_10,/etc/ssh/sshd_config,sshd_04.txt,5.1.17,maxauthtries set to 10 when it should be 4
+os_11,/etc/ssh/sshd_config,sshd_05.txt,5.1.20,PermitEmptyPasswords:yes and secure value is no
+os_12,/etc/ssh/sshd_config,sshd_06.txt,5.1.16,LogLevel:QUIET and it should be verbose
+os_13,/etc/ssh/sshd_config,sshd_07.txt,5.1.10,ClientAliveCountMax:unlimited it should be something like 3
+os_14,/etc/ssh/sshd_config,sshd_08.txt,5.1.14,IgnoreRhosts:no instead of yes
+os_15,/etc/ssh/sshd_config,sshd_09.txt,5.1.15,LoginGraceTime:120 rather than 60
+os_16,/etc/sysctl.conf,sysctl_01.txt,3.3.1.1,net.ipv4.ip_forward:1 and not 0
+os_17,/etc/sysctl.conf,sysctl_02.txt,3.3.1.4,net.ipv4.conf.all.send_redirects:1 not 0
+os_18,/etc/sysctl.conf,sysctl_03.txt,3.3.1.8,net.ipv4.conf.all.accept_redirects:1 and not 0
+os_19,/etc/sysctl.conf,sysctl_04.txt,3.3.1.14,net.ipv4.conf.all.accept_source_route:1 and not 0 
+os_20,/etc/sysctl.conf,sysctl_05.txt,3.3.1.7,net.ipv4.icmp_echo_ignore_broadcasts:0 and it should be 1
+os_21,/etc/sysctl.conf,sysctl_06.txt,3.3.1.16,net.ipv4.conf.all.log_martians:0 instead of 1
+os_22,/etc/sysctl.conf,sysctl_07.txt,3.3.1.18,net.ipv4.tcp_syncookies:0  not 1
+os_23,/etc/sysctl.conf,sysctl_08.txt,1.5.6,kernel.randomize_va_space:0 and not 2
+os_24,/etc/sysctl.conf,sysctl_09.txt,3.3.2.7,net.ipv6.conf.all.accept_ra:1  instead of 0
+os_25,/etc/sysctl.conf,sysctl_10.txt,3.3.1.12,net.ipv4.conf.all.rp_filter:0 instead of 1
