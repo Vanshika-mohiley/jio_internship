@@ -6,7 +6,7 @@ inputpath= "category2.csv"
 chainpath= "cat2review.csv"
 output= "category2_final.csv"
 
-targetsingles = 15
+targetsingles = 20
 max_per_keyword = 3
 chain_date_window =3
 

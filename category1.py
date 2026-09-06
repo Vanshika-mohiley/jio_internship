@@ -18,7 +18,10 @@ def buildrow(cve_item : dict , keyword: str):
     if cvss_score is None:
         return None
     description = extract_description(cve)
+    references = cve.get("references", [])
     reference_count = len(cve.get("references" , []))
+    source_advisory_url = references[0].get("url", "") if references else ""
+
     sample_cpe = "" 
     configs = cve.get("configurations",[])
     if configs and configs[0].get("nodes"):
@@ -41,13 +44,13 @@ def buildrow(cve_item : dict , keyword: str):
         "package": "",
         "installed_version": "",
         "expected_vulnerable": "",
-        "source_advisory_url": "",
+        "source_advisory_url": source_advisory_url,
         "notes": "",
     }
 def build_category1(output_path : str ="category1.csv"):
+    all_candidates ={}
     if not api_keys:
         print("No NVD_API_KEY set -- running unauthenticated (slower).")
-        all_candidates ={}
     for kw in keywords:
         print(f"Querying : {kw}")
         try:

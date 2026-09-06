@@ -2,7 +2,7 @@ import csv
 import os
 
 inputcsv = "cat3controls.csv"
-outputcsv = "category3snippets.csv"
+outputcsv = "category3snippets"
 ground_truth = "cat3_groundtruth.csv"
 
 file_header = {

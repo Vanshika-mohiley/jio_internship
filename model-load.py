@@ -1,27 +1,23 @@
 import ollama as ola
-import time
+from datasetloader import load_full_dataset
+from runprompt import run_all
+
 def getmodels():
     response=ola.list()
     return([m.model for m in response.models])
-def run_prompt(model:str , prompt:str):
-    print(f"\n{'='*60}")
-    print(f"Model : {model}")
-    print(f"{'='*60}")
-    start = time.perf_counter()
-    try:
-        convo = ola.generate(model = model , prompt= prompt)
-        elapsed = time.perf_counter() - start
-        content= convo["response"]
-        token = convo.get('eval_count',0)
-        token_per_sec = token/elapsed if elapsed > 0 else 0
 
-        print(content)
-        print( f"\n --{elapsed : .2f}s   |  {token} tokens  | {token_per_sec : .1f} tok/s -- " )
-    except Exception as e:
-        print(f"{model} is not running")
 models=getmodels()
 
-prompt = input("Enter prompt : ")
-for model in models:
-    run_prompt(model , prompt)
+dataset=load_full_dataset(
+    {
+            "cve_known_csv": "category1_final.csv",
+            "cve_novel_csv": "category2_final.csv",
+            "os_config_index_csv": "os_config_index.csv",
+            "os_config_base_dir": "category3snippets",
+            "k8s_index_csv": "k8s_index.csv",
+            "k8s_base_dir": "category4_manifest",
+            "multi_artefact_dir": "category5_scenarios",
+        }
 
+)
+run_all(models=models,dataset =dataset)

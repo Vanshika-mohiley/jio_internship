@@ -22,7 +22,9 @@ def built_row(cve_item : dict, matched_keyword :list):
     cvss_score ,cvss_vector , cvss_version ,cvss_source = extract_cvss(cve)
     description =extract_description(cve)
     vuln_status = cve.get("vulnStatus","")
+    references = cve.get("references", [])
     reference_count = len(cve.get("references",[]))
+    source_advisory_url = references[0].get("url", "") if references else ""
     return {
         "cve_id": cve["id"],
         "matched_keywords": ", ".join(matched_keyword),
@@ -41,7 +43,7 @@ def built_row(cve_item : dict, matched_keyword :list):
         "package": "",
         "installed_version": "",
         "expected_vulnerable": "",
-        "source_advisory_url": "",      # vendor/researcher writeup, not just NVD
+        "source_advisory_url": source_advisory_url,      # vendor/researcher writeup, not just NVD
         "notes": "",
     }
 def fetchretry(strt_str , end_str ,pagesize , start_index ,max_retries =3):

@@ -2,7 +2,7 @@ import csv
 import os
 
 inputfile = "category4_controls.csv"
-outputfile = "category4_manifest.csv"
+outputfile = "category4_manifest"
 ground_truth ="cat4groundtruth.csv"
 
 def parse_list(raw:str)-> list:
