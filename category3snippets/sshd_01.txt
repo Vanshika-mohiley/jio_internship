@@ -1,0 +1,11 @@
+# /etc/ssh/sshd_config(excerpt)
+
+PermitRootLogin:yes
+PasswordAuthentication:no
+X11Forwarding:no
+MaxAuthTries:4
+PermitEmptyPasswords:no
+LogLevel:VERBOSE
+ClientAliveCountMax:3
+IgnoreRhosts:yes
+LoginGraceTime:60

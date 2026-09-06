@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sample-app
+  namespace: default
+spec:
+  hostPID: false
+  hostNetwork: false
+  containers:
+    - name: app
+      image: registry.example.com/app:1.0
+      securityContext:
+        privileged: false
+        runAsNonRoot: true
+        allowPrivilegeEscalation: false
+        # resources block intentionally omitted
