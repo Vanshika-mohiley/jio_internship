@@ -1,2 +1,5 @@
 cat2review.csv
 .venv/
+  __pycache__/
+ *.pyc
+ *.pyo
