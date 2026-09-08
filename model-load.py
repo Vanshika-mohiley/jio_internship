@@ -1,13 +1,12 @@
 import ollama as ola
 from datasetloader import load_full_dataset
 from runprompt import run_all
-
+from ragretrival import build_corpus,RAG_MODELS
 def getmodels():
     response=ola.list()
     return([m.model for m in response.models])
 
 models=getmodels()
-
 dataset=load_full_dataset(
     {
             "cve_known_csv": "category1_final.csv",
@@ -20,4 +19,13 @@ dataset=load_full_dataset(
         }
 
 )
-run_all(models=models,dataset =dataset)
+rag_collection = build_corpus("category2_final.csv")
+
+run_all(
+    models=models,
+    dataset=dataset,
+    rag_models=RAG_MODELS,
+    rag_collection=rag_collection,
+    output_csv="evaluation_results.csv",
+)
+
