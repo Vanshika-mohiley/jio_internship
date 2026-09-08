@@ -2,13 +2,17 @@ import csv
 import glob
 import os 
 import re
-import json
+def read_csv_rows_safely(path):
+    with open(path, newline="", encoding="utf-8", errors="replace") as f:
+        return list(csv.DictReader(f))
 
+def read_text_safely(path):
+    with open(path, encoding="utf-8", errors="replace") as f:
+        return f.read()
 #category 1 &2 
 def loadcveknown(csvpath:str)-> list[dict]:
     items=[]
-    with open(csvpath,newline="",encoding="utf-8-sig") as f:
-        for row in csv.DictReader(f):
+    for row in read_csv_rows_safely(csvpath):
             items.append({
                 "id": row["cve_id"],
                 "category": "cve_known",
@@ -25,8 +29,7 @@ def loadcveknown(csvpath:str)-> list[dict]:
     return items
 def loadcvenovel(csv_path : str)-> list[dict]:
     items =[]
-    with open(csv_path,encoding="utf-8-sig") as f:
-        for row in csv.DictReader(f):
+    for row in read_csv_rows_safely(csv_path):
             items.append({
                 "id": row["cve_id"],
                 "category": "cve_novel",
@@ -48,8 +51,7 @@ def loadcvenovel(csv_path : str)-> list[dict]:
 
 def load_os_config(index_csv:str,base_dir: str ="")-> list[dict]:
     items =[]
-    with open(index_csv,encoding="utf-8-sig") as f:
-        for row in csv.DictReader(f):
+    for row in read_csv_rows_safely(index_csv):
             file_path = os.path.join(base_dir,row["file_path"])
             with open(file_path) as cf:
                 snippet = cf.read()
@@ -68,11 +70,9 @@ def load_os_config(index_csv:str,base_dir: str ="")-> list[dict]:
 #category 4(15)
 def load_k8s_manifests(index_csv_path: str, base_dir: str = "") -> list[dict]:
     items = []
-    with open(index_csv_path,encoding="utf-8-sig") as f:
-        for row in csv.DictReader(f):
+    for row in read_csv_rows_safely(index_csv_path):
             file_path = os.path.join(base_dir, row["file_path"])
-            with open(file_path) as yf:
-                manifest_yaml = yf.read()
+            manifest_yaml = read_text_safely(file_path)
             items.append({
                 "id": row["id"],
                 "category": "k8s_manifest",
@@ -102,22 +102,18 @@ def _parse_bundle(text: str) -> dict:
 def load_multi_artefact(bundle_dir: str) -> list[dict]:
     items = []
     for path in sorted(glob.glob(os.path.join(bundle_dir, "*.txt"))):
-        with open(path, encoding="utf-8") as f:
-            text = f.read()
- 
-        sections = _parse_bundle(text)
-        item_id = os.path.splitext(os.path.basename(path))[0]
-        reference_section = next(
-            (v for k, v in sections.items() if "reference" in k.lower()), ""
-        )
- 
-        def find_section(keyword, default="N/A"):
+       text = read_text_safely(path)
+       sections = _parse_bundle(text)
+       item_id = os.path.splitext(os.path.basename(path))[0]
+       reference_section = next(
+            (v for k, v in sections.items() if "reference" in k.lower()), "")
+       def find_section(keyword, default="N/A"):
             for k, v in sections.items():
                 if keyword.lower() in k.lower():
                     return v
             return default
  
-        items.append({
+       items.append({
             "id": item_id,
             "category": "multi_artefact",
             "package_list": find_section("packages"),
@@ -135,18 +131,7 @@ def load_multi_artefact(bundle_dir: str) -> list[dict]:
 # Combine everything
 
 def load_full_dataset(paths: dict) -> list[dict]:
-    """
-    paths example:
-    {
-        "cve_known_csv": "category1_final.csv",
-        "cve_novel_csv": "category2_final.csv",
-        "os_config_index_csv": "os_config_index.csv",
-        "os_config_base_dir": "artefacts/os_config",
-        "k8s_index_csv": "k8s_index.csv",
-        "k8s_base_dir": "artefacts/k8s",
-        "multi_artefact_dir": "artefacts/multi_artefact",
-    }
-    """
+    
     dataset = []
     dataset += loadcveknown(paths["cve_known_csv"])
     dataset += loadcvenovel(paths["cve_novel_csv"])
