@@ -21,8 +21,6 @@ Optional:
 """
 
 from __future__ import annotations
-
-import argparse
 import json
 import sys
 from pathlib import Path
@@ -273,53 +271,38 @@ def render_assessment_status(report: AssessmentReport):
 
 
 def main():
-    ap = argparse.ArgumentParser()
-
-    ap.add_argument(
-        "--report-json",
-        required=True,
-        help="Path to an AssessmentReport JSON file",
-    )
-
-    ap.add_argument(
-        "--collection",
-        default="windows_artifacts.json",
-        help="Path to the collected host artifacts JSON",
-    )
-
-    ap.add_argument(
-        "--enrichment",
-        default="data/enrichment.json",
-        help="Path to the local CVE enrichment JSON",
-    )
-
-    args = ap.parse_args()
-
     st.set_page_config(
         page_title="Vulnerability Assessment Report",
         layout="wide",
     )
 
-    st.title(
-        " AI-Augmented Vulnerability Assessment Report"
+    st.title(" AI-Augmented Vulnerability Assessment Report")
+
+    st.sidebar.header("Input Files")
+
+    report_file = st.sidebar.file_uploader(
+        "Assessment Report JSON", type="json", key="report_json"
     )
+    collection_file = st.sidebar.file_uploader(
+        "Collected Artifacts JSON (optional)", type="json", key="collection_json"
+    )
+    enrichment_file = st.sidebar.file_uploader(
+        "Enrichment JSON (optional)", type="json", key="enrichment_json"
+    )
+
+    if report_file is None:
+        st.info("Upload an Assessment Report JSON file in the sidebar to begin.")
+        st.stop()
+
+    report = AssessmentReport.model_validate(json.load(report_file))
+    collection = json.load(collection_file) if collection_file else {}
+    enrichment = json.load(enrichment_file) if enrichment_file else {}
 
     render_compliance_badge()
 
-    report = load_report(args.report_json)
-    collection = load_json(args.collection)
-    enrichment = load_json(args.enrichment)
-
-    render_executive_summary(
-        report,
-        collection,
-        enrichment,
-    )
-
+    render_executive_summary(report, collection, enrichment)
     render_assessment_status(report)
-
     render_findings_table(report)
-
 
 if __name__ == "__main__":
     main()
