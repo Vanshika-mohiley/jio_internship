@@ -123,6 +123,9 @@ Compares base-model-only, RAG-only, and full-prototype configurations on the sam
   <img src="images/page2.png" width="45%">
 </p>
 
+### Live Demo
+
+🔗 [Vulnerability Assessment Report Dashboard](https://jiointernship-luixh66qe79vkrczcc82ax.streamlit.app/)
 ## Notes
  
 - All LLM inference runs against a local Ollama server (`http://localhost:11434`) — no data leaves the network boundary, by design.
