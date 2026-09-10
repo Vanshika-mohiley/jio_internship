@@ -124,6 +124,10 @@ Compares base-model-only, RAG-only, and full-prototype configurations on the sam
 </p>
 
 ### Live Demo
+To run this demo version , please attach the following files from this repository to the app:-
+1. vuln_tool_prototype/data/assessment.json
+2. vuln_tool_prototype/data/enrichment.json
+3. vuln_tool_prototype/windows_artifacts.json
 
 🔗 [Vulnerability Assessment Report Dashboard](https://jiointernship-luixh66qe79vkrczcc82ax.streamlit.app/)
 ## Notes
