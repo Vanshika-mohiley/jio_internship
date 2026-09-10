@@ -116,7 +116,13 @@ python validation_benchmark/run_validation.py --model qwen2.5:7B
 ```
  
 Compares base-model-only, RAG-only, and full-prototype configurations on the same 30 cases. See `vuln_tool_prototype/validation_benchmark/README.md` for details.
- 
+
+### Prototype Architecture
+<p align="center">
+  <img src="./page1.png" width="45%">
+  <img src="./page2.png" width="45%">
+</p>
+
 ## Notes
  
 - All LLM inference runs against a local Ollama server (`http://localhost:11434`) — no data leaves the network boundary, by design.
