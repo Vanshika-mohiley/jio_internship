@@ -1,0 +1,13 @@
+case_id,package,version,expected_vulnerable,expected_cve,expected_severity,mode,model,json_valid,attempts,latency_sec,predicted_finding,true_positive,false_positive,false_negative,predicted_severity,cvss_tier_correct,returned_cves,failure_type
+V02,log4j-core,2.15.0,True,CVE-2021-45046,CRITICAL,rag,qwen2.5:7b,True,1,104.92,True,False,True,True,CRITICAL,False,CVE-2021-44228,retrieval error
+P01,log4j-core,2.16.0,False,,,rag,qwen2.5:7b,True,1,111.85,True,False,True,False,CRITICAL,False,CVE-2021-45046,version reasoning error
+P02,log4j-core,2.16.0,False,,,rag,qwen2.5:7b,True,1,49.87,True,False,True,False,CRITICAL,False,CVE-2021-44228,version reasoning error
+P03,spring-framework,5.3.18,False,,,rag,qwen2.5:7b,True,1,93.13,True,False,True,False,CRITICAL,False,CVE-2022-22965,version reasoning error
+P04,moveit-transfer,2023.0.2,False,,,rag,qwen2.5:7b,True,1,97.68,True,False,True,False,CRITICAL,False,CVE-2023-34362,version reasoning error
+P05,pan-os,10.2.9-h1,False,,,rag,qwen2.5:7b,True,1,97.3,True,False,True,False,CRITICAL,False,CVE-2024-3400,version reasoning error
+P06,zlib,1.2.13,False,,,rag,qwen2.5:7b,True,1,104.06,True,False,True,False,CRITICAL,False,CVE-2022-37434,version reasoning error
+P07,apache-httpd,2.4.51,False,,,rag,qwen2.5:7b,True,1,100.6,True,False,True,False,CRITICAL,False,CVE-2021-42013,version reasoning error
+P08,xz,5.6.2,False,,,rag,qwen2.5:7b,True,1,98.34,True,False,True,False,CRITICAL,False,CVE-2024-3094,version reasoning error
+P09,libwebp,1.3.2,False,,,rag,qwen2.5:7b,True,1,95.27,True,False,True,False,HIGH,False,CVE-2023-4863,version reasoning error
+P10,openssh-server,9.8p1,False,,,rag,qwen2.5:7b,True,1,92.79,True,False,True,False,HIGH,False,CVE-2024-6387,version reasoning error
+P11,chrome,106.0.5249.62,False,,,rag,qwen2.5:7b,True,1,99.32,True,False,True,False,MEDIUM,False,CVE-2022-4911,version reasoning error

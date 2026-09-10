@@ -1,0 +1,314 @@
+{
+  "metadata": {
+    "benchmark_version": "1.0",
+    "case_count": 30,
+    "composition": {
+      "vulnerable": 11,
+      "patched": 11,
+      "mismatch": 8
+    },
+    "ground_truth_source": "NVD records; see project notes for cited CVE records."
+  },
+  "cases": [
+    {
+      "case_id": "V01",
+      "package": "log4j-core",
+      "version": "2.14.1",
+      "expected_vulnerable": true,
+      "expected_cve": "CVE-2021-44228",
+      "expected_severity": "CRITICAL",
+      "expected_cvss": 10.0,
+      "cve": "CVE-2021-44228"
+    },
+    {
+      "case_id": "V02",
+      "package": "log4j-core",
+      "version": "2.15.0",
+      "expected_vulnerable": true,
+      "expected_cve": "CVE-2021-45046",
+      "expected_severity": "CRITICAL",
+      "expected_cvss": 9.0,
+      "cve": "CVE-2021-45046"
+    },
+    {
+      "case_id": "V03",
+      "package": "spring-framework",
+      "version": "5.3.17",
+      "expected_vulnerable": true,
+      "expected_cve": "CVE-2022-22965",
+      "expected_severity": "CRITICAL",
+      "expected_cvss": 9.8,
+      "cve": "CVE-2022-22965"
+    },
+    {
+      "case_id": "V04",
+      "package": "moveit-transfer",
+      "version": "2023.0.1",
+      "expected_vulnerable": true,
+      "expected_cve": "CVE-2023-34362",
+      "expected_severity": "CRITICAL",
+      "expected_cvss": 9.8,
+      "cve": "CVE-2023-34362"
+    },
+    {
+      "case_id": "V05",
+      "package": "pan-os",
+      "version": "10.2.8",
+      "expected_vulnerable": true,
+      "expected_cve": "CVE-2024-3400",
+      "expected_severity": "CRITICAL",
+      "expected_cvss": 10.0,
+      "cve": "CVE-2024-3400"
+    },
+    {
+      "case_id": "V06",
+      "package": "zlib",
+      "version": "1.2.12",
+      "expected_vulnerable": true,
+      "expected_cve": "CVE-2022-37434",
+      "expected_severity": "CRITICAL",
+      "expected_cvss": 9.8,
+      "cve": "CVE-2022-37434"
+    },
+    {
+      "case_id": "V07",
+      "package": "apache-httpd",
+      "version": "2.4.50",
+      "expected_vulnerable": true,
+      "expected_cve": "CVE-2021-42013",
+      "expected_severity": "CRITICAL",
+      "expected_cvss": 9.8,
+      "cve": "CVE-2021-42013"
+    },
+    {
+      "case_id": "V08",
+      "package": "xz",
+      "version": "5.6.1",
+      "expected_vulnerable": true,
+      "expected_cve": "CVE-2024-3094",
+      "expected_severity": "CRITICAL",
+      "expected_cvss": 10.0,
+      "cve": "CVE-2024-3094"
+    },
+    {
+      "case_id": "V09",
+      "package": "libwebp",
+      "version": "1.3.1",
+      "expected_vulnerable": true,
+      "expected_cve": "CVE-2023-4863",
+      "expected_severity": "HIGH",
+      "expected_cvss": 8.8,
+      "cve": "CVE-2023-4863"
+    },
+    {
+      "case_id": "V10",
+      "package": "openssh-server",
+      "version": "9.7p1",
+      "expected_vulnerable": true,
+      "expected_cve": "CVE-2024-6387",
+      "expected_severity": "HIGH",
+      "expected_cvss": 8.1,
+      "cve": "CVE-2024-6387"
+    },
+    {
+      "case_id": "V11",
+      "package": "chrome",
+      "version": "106.0.5249.61",
+      "expected_vulnerable": true,
+      "expected_cve": "CVE-2022-4911",
+      "expected_severity": "MEDIUM",
+      "expected_cvss": 6.5,
+      "cve": "CVE-2022-4911"
+    },
+    {
+      "case_id": "P01",
+      "package": "log4j-core",
+      "version": "2.16.0",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2021-44228"
+    },
+    {
+      "case_id": "P02",
+      "package": "log4j-core",
+      "version": "2.16.0",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2021-45046"
+    },
+    {
+      "case_id": "P03",
+      "package": "spring-framework",
+      "version": "5.3.18",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2022-22965"
+    },
+    {
+      "case_id": "P04",
+      "package": "moveit-transfer",
+      "version": "2023.0.2",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2023-34362"
+    },
+    {
+      "case_id": "P05",
+      "package": "pan-os",
+      "version": "10.2.9-h1",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2024-3400"
+    },
+    {
+      "case_id": "P06",
+      "package": "zlib",
+      "version": "1.2.13",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2022-37434"
+    },
+    {
+      "case_id": "P07",
+      "package": "apache-httpd",
+      "version": "2.4.51",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2021-42013"
+    },
+    {
+      "case_id": "P08",
+      "package": "xz",
+      "version": "5.6.2",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2024-3094"
+    },
+    {
+      "case_id": "P09",
+      "package": "libwebp",
+      "version": "1.3.2",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2023-4863"
+    },
+    {
+      "case_id": "P10",
+      "package": "openssh-server",
+      "version": "9.8p1",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2024-6387"
+    },
+    {
+      "case_id": "P11",
+      "package": "chrome",
+      "version": "106.0.5249.62",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2022-4911"
+    },
+    {
+      "case_id": "M01",
+      "package": "log4net",
+      "version": "2.0.17",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2021-44228"
+    },
+    {
+      "case_id": "M02",
+      "package": "log4j-api",
+      "version": "2.16.0",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2021-44228"
+    },
+    {
+      "case_id": "M03",
+      "package": "spring-boot",
+      "version": "2.7.18",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2022-22965"
+    },
+    {
+      "case_id": "M04",
+      "package": "moveit-cloud",
+      "version": "15.0.2.39",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2023-34362"
+    },
+    {
+      "case_id": "M05",
+      "package": "panorama",
+      "version": "11.1.2-h3",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2024-3400"
+    },
+    {
+      "case_id": "M06",
+      "package": "libwebp-tools",
+      "version": "1.3.1",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2023-4863"
+    },
+    {
+      "case_id": "M07",
+      "package": "openssh-client",
+      "version": "9.7p1",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2024-6387"
+    },
+    {
+      "case_id": "M08",
+      "package": "xz-utils",
+      "version": "5.4.6",
+      "expected_vulnerable": false,
+      "expected_cve": null,
+      "expected_severity": null,
+      "expected_cvss": null,
+      "cve": "CVE-2024-3094"
+    }
+  ]
+}

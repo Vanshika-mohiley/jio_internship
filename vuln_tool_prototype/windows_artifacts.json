@@ -1,0 +1,2418 @@
+{
+  "schema_version": "1.0",
+  "host": {
+    "hostname": "VANSHIKAS_PC",
+    "os_family": "windows",
+    "os_version": "Microsoft Windows NT 10.0.26200.0",
+    "collected_at": "2026-09-09T15:01:48.2318715Z"
+  },
+  "packages": [
+    {
+      "name": "Git",
+      "version": "2.50.1",
+      "architecture": null,
+      "source": "windows_registry"
+    }
+  ],
+  "hotfixes": [],
+  "listening_ports": [
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 135,
+      "process": null,
+      "pid": 1728
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 445,
+      "process": null,
+      "pid": 4
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 5040,
+      "process": null,
+      "pid": 6208
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 7680,
+      "process": null,
+      "pid": 9160
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 49664,
+      "process": null,
+      "pid": 1400
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 49665,
+      "process": null,
+      "pid": 1224
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 49668,
+      "process": null,
+      "pid": 3408
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 49669,
+      "process": null,
+      "pid": 3636
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 49670,
+      "process": null,
+      "pid": 4692
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 49678,
+      "process": null,
+      "pid": 5080
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 49679,
+      "process": null,
+      "pid": 3628
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 49680,
+      "process": null,
+      "pid": 1372
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 49681,
+      "process": null,
+      "pid": 5080
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 49682,
+      "process": null,
+      "pid": 3628
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 49685,
+      "process": null,
+      "pid": 3628
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 49686,
+      "process": null,
+      "pid": 5080
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 49687,
+      "process": null,
+      "pid": 3628
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 49688,
+      "process": null,
+      "pid": 3628
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 49689,
+      "process": null,
+      "pid": 3628
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "0.0.0.0",
+      "local_port": 57791,
+      "process": null,
+      "pid": 14840
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "127.0.0.1",
+      "local_port": 11434,
+      "process": null,
+      "pid": 4748
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "127.0.0.1",
+      "local_port": 24830,
+      "process": null,
+      "pid": 3624
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "127.0.0.1",
+      "local_port": 49741,
+      "process": null,
+      "pid": 21480
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "127.0.0.1",
+      "local_port": 55609,
+      "process": null,
+      "pid": 11740
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "127.0.0.1",
+      "local_port": 58947,
+      "process": null,
+      "pid": 18992
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "127.0.0.1",
+      "local_port": 59874,
+      "process": null,
+      "pid": 12248
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "192.168.29.177",
+      "local_port": 139,
+      "process": null,
+      "pid": 4
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "192.168.56.1",
+      "local_port": 139,
+      "process": null,
+      "pid": 4
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "[::]",
+      "local_port": 135,
+      "process": null,
+      "pid": 1728
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "[::]",
+      "local_port": 445,
+      "process": null,
+      "pid": 4
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "[::]",
+      "local_port": 7680,
+      "process": null,
+      "pid": 9160
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "[::]",
+      "local_port": 49664,
+      "process": null,
+      "pid": 1400
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "[::]",
+      "local_port": 49665,
+      "process": null,
+      "pid": 1224
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "[::]",
+      "local_port": 49668,
+      "process": null,
+      "pid": 3408
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "[::]",
+      "local_port": 49669,
+      "process": null,
+      "pid": 3636
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "[::]",
+      "local_port": 49670,
+      "process": null,
+      "pid": 4692
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "[::]",
+      "local_port": 49680,
+      "process": null,
+      "pid": 1372
+    },
+    {
+      "protocol": "tcp",
+      "local_address": "[::1]",
+      "local_port": 49673,
+      "process": null,
+      "pid": 5164
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 123,
+      "process": null,
+      "pid": 5288
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 500,
+      "process": null,
+      "pid": 4808
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 4500,
+      "process": null,
+      "pid": 4808
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5050,
+      "process": null,
+      "pid": 6208
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 22956
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 16684
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 5440
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 22956
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 5440
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 16684
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 22956
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 5440
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 22956
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 2308
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 16684
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 16684
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 5440
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 5355,
+      "process": null,
+      "pid": 2308
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 50080,
+      "process": null,
+      "pid": 15496
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 50420,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 50564,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 51829,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 54837,
+      "process": null,
+      "pid": 2308
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 55393,
+      "process": null,
+      "pid": 2308
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 56166,
+      "process": null,
+      "pid": 2308
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 56694,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 56695,
+      "process": null,
+      "pid": 2308
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 57553,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 59913,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "0.0.0.0",
+      "local_port": 63344,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "127.0.0.1",
+      "local_port": 1900,
+      "process": null,
+      "pid": 5868
+    },
+    {
+      "protocol": "udp",
+      "local_address": "127.0.0.1",
+      "local_port": 56144,
+      "process": null,
+      "pid": 5868
+    },
+    {
+      "protocol": "udp",
+      "local_address": "127.0.0.1",
+      "local_port": 61630,
+      "process": null,
+      "pid": 4768
+    },
+    {
+      "protocol": "udp",
+      "local_address": "127.0.0.1",
+      "local_port": 64632,
+      "process": null,
+      "pid": 25180
+    },
+    {
+      "protocol": "udp",
+      "local_address": "192.168.29.177",
+      "local_port": 137,
+      "process": null,
+      "pid": 4
+    },
+    {
+      "protocol": "udp",
+      "local_address": "192.168.29.177",
+      "local_port": 138,
+      "process": null,
+      "pid": 4
+    },
+    {
+      "protocol": "udp",
+      "local_address": "192.168.29.177",
+      "local_port": 1900,
+      "process": null,
+      "pid": 5868
+    },
+    {
+      "protocol": "udp",
+      "local_address": "192.168.29.177",
+      "local_port": 2177,
+      "process": null,
+      "pid": 25160
+    },
+    {
+      "protocol": "udp",
+      "local_address": "192.168.29.177",
+      "local_port": 50301,
+      "process": null,
+      "pid": 22956
+    },
+    {
+      "protocol": "udp",
+      "local_address": "192.168.29.177",
+      "local_port": 56143,
+      "process": null,
+      "pid": 5868
+    },
+    {
+      "protocol": "udp",
+      "local_address": "192.168.56.1",
+      "local_port": 137,
+      "process": null,
+      "pid": 4
+    },
+    {
+      "protocol": "udp",
+      "local_address": "192.168.56.1",
+      "local_port": 138,
+      "process": null,
+      "pid": 4
+    },
+    {
+      "protocol": "udp",
+      "local_address": "192.168.56.1",
+      "local_port": 1900,
+      "process": null,
+      "pid": 5868
+    },
+    {
+      "protocol": "udp",
+      "local_address": "192.168.56.1",
+      "local_port": 2177,
+      "process": null,
+      "pid": 25160
+    },
+    {
+      "protocol": "udp",
+      "local_address": "192.168.56.1",
+      "local_port": 50300,
+      "process": null,
+      "pid": 22956
+    },
+    {
+      "protocol": "udp",
+      "local_address": "192.168.56.1",
+      "local_port": 56142,
+      "process": null,
+      "pid": 5868
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 123,
+      "process": null,
+      "pid": 5288
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 500,
+      "process": null,
+      "pid": 4808
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 4500,
+      "process": null,
+      "pid": 4808
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 5353,
+      "process": null,
+      "pid": 5440
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 5353,
+      "process": null,
+      "pid": 16684
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 5353,
+      "process": null,
+      "pid": 22956
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 5353,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 5353,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 5353,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 5353,
+      "process": null,
+      "pid": 2308
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 5353,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 5353,
+      "process": null,
+      "pid": 22956
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 5353,
+      "process": null,
+      "pid": 16684
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 5353,
+      "process": null,
+      "pid": 5440
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 5355,
+      "process": null,
+      "pid": 2308
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 50080,
+      "process": null,
+      "pid": 15496
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 50420,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 50564,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 51829,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 54837,
+      "process": null,
+      "pid": 2308
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 55393,
+      "process": null,
+      "pid": 2308
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 56166,
+      "process": null,
+      "pid": 2308
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 56694,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 56695,
+      "process": null,
+      "pid": 2308
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 57553,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 59913,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::]",
+      "local_port": 63344,
+      "process": null,
+      "pid": 14632
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::1]",
+      "local_port": 1900,
+      "process": null,
+      "pid": 5868
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[::1]",
+      "local_port": 56141,
+      "process": null,
+      "pid": 5868
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[2405:201:401e:a0f4:c186:e02e:e0cd:e2a9]",
+      "local_port": 2177,
+      "process": null,
+      "pid": 25160
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[2405:201:401e:a0f4:c186:e02e:e0cd:e2a9]",
+      "local_port": 50302,
+      "process": null,
+      "pid": 22956
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[2405:201:401e:a0f4:f4f5:bade:83ef:d75e]",
+      "local_port": 2177,
+      "process": null,
+      "pid": 25160
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[2405:201:401e:a0f4:f4f5:bade:83ef:d75e]",
+      "local_port": 50303,
+      "process": null,
+      "pid": 22956
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[fe80::53eb:c139:33d5:f369%5]",
+      "local_port": 1900,
+      "process": null,
+      "pid": 5868
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[fe80::53eb:c139:33d5:f369%5]",
+      "local_port": 2177,
+      "process": null,
+      "pid": 25160
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[fe80::53eb:c139:33d5:f369%5]",
+      "local_port": 56139,
+      "process": null,
+      "pid": 5868
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[fe80::70e6:daa6:3390:2d7d%6]",
+      "local_port": 1900,
+      "process": null,
+      "pid": 5868
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[fe80::70e6:daa6:3390:2d7d%6]",
+      "local_port": 2177,
+      "process": null,
+      "pid": 25160
+    },
+    {
+      "protocol": "udp",
+      "local_address": "[fe80::70e6:daa6:3390:2d7d%6]",
+      "local_port": 56140,
+      "process": null,
+      "pid": 5868
+    }
+  ],
+  "services": [
+    {
+      "name": "AarSvc_64bd32",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "ADPSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "ALG",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "AppIDSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "Appinfo",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "AppReadiness",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "AppXSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "ApxSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "AsusAppService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "ASUSOptimization",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "AsusPTPService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "AsusScreenXpertHostService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "ASUSSoftwareManager",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "ASUSSwitch",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "ASUSSystemAnalysis",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "ASUSSystemDiagnosis",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "AudioEndpointBuilder",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "Audiosrv",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "autotimesvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "AxInstSV",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "BcastDVRUserService_64bd32",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "BDESVC",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "BFE",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "BITS",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "BluetoothUserService_64bd32",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "BrokerInfrastructure",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "BTAGService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "BthAvctpSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "bthserv",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "camsvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "CaptureService_64bd32",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "cbdhsvc_64bd32",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "CDPSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "CDPUserSvc_64bd32",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "CertPropSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "ClickToRunSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "ClipSVC",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "CloudBackupRestoreSvc_64bd32",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "COMSysApp",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "ConsentUxUserSvc_64bd32",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "CoreMessagingRegistrar",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "CoworkVMService",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "cplspcon",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "CredentialEnrollmentManagerUserSvc_64bd32",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "CryptSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "DcomLaunch",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "dcsvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "defragsvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "DeviceAssociationBrokerSvc_64bd32",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "DeviceAssociationService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "DeviceInstall",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "DevicePickerUserSvc_64bd32",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "DevicesFlowUserSvc_64bd32",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "DevQueryBroker",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "Dhcp",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "diagsvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "DiagTrack",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "DiracAudSrv",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "DispBrokerDesktopSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "DisplayEnhancementService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "DmEnrollmentSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "dmwappushservice",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "Dnscache",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "DoSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "dot3svc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "DPS",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "dptftcs",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "DsmSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "DsSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "DusmSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "EapHost",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "EDCClientBaseService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "edgeupdate",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "edgeupdatem",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "EFS",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "embeddedmode",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "EntAppSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "EventLog",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "EventSystem",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "fdPHost",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "FDResPub",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "fhsvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "FileSyncHelper",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "FontCache",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "FrameServer",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "FrameServerMonitor",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "GameInputSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "GlideXNearService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "GlideXRemoteService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "GlideXService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "GlideXServiceExt",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "GoogleChromeElevationService",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "GoogleUpdaterInternalService152.0.7933.0",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "GoogleUpdaterService152.0.7933.0",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "gpsvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "GraphicsPerfSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "hidserv",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "hns",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "hpatchmon",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "HvHost",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "HySecure Manager",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "icssvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "IKEEXT",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "InstallService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "IntelAudioService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "IntelGraphicsSoftwareService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "InventorySvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "ipfsvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "iphlpsvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "IpxlatCfgSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "IsoEnvBroker",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "IsolationSession",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "jhi_service",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "KeyIso",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "KtmRm",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "LanmanServer",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "LanmanWorkstation",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "lfsvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "LibreOfficeMaintenance",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "LicenseManager",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "lltdsvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "lmhosts",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "LocalKdc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "LSM",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "LxpSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "MapsBroker",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "McAfee WebAdvisor",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "McmSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "McpManagementService",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "MDCoreSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "MessagingService_64bd32",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "midisrv",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "mpssvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "MSDTC",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "MSiSCSI",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "msiserver",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "MTKBTSVC",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "NaturalAuthentication",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "NcaSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "NcbService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "NcdAutoSetup",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "Netlogon",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "Netman",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "netprofm",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "NetSetupSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "NetTcpPortSharing",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "NgcCtnrSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "NgcSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "NlaSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "NPSMSvc_64bd32",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "nsi",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "nvagent",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "OneDrive Updater Service",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "OneSyncSvc_64bd32",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "P9RdrService_64bd32",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "PcaSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "PenService_64bd32",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "perceptionsimulation",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "PerfHost",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "PhoneSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "PimIndexMaintenanceSvc_64bd32",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "pla",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "PlugPlay",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "PolicyAgent",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "Power",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "PrintDeviceConfigurationService",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "PrintNotify",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "PrintScanBrokerService",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "PrintWorkflowUserSvc_64bd32",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "ProfSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "PushToInstall",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "QWAVE",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "RasAuto",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "RasMan",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "refsdedupsvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "RemoteAccess",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "RemoteRegistry",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "RetailDemo",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "RmSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "RpcEptMapper",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "RpcLocator",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "RpcSs",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "RstMwService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "RtkAudioUniversalService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "SamSs",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "SCardSvr",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "ScDeviceEnum",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "Schedule",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "SCPolicySvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "SDRSVC",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "seclogon",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "SecurityHealthService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "SEMgrSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "SENS",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "SensorDataService",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "SensorService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "SensrSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "SessionEnv",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "SharedAccess",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "ShellHWDetection",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "shpamsvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "smphost",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "SmsRouter",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "SNMPTrap",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "Spooler",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "sppsvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "SSDPSRV",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "ssh-agent",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "SstpSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "StateRepository",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "StiSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "StorSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "svsvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "swprv",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "SysMain",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "SystemEventsBroker",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "TapiSrv",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "TermService",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "TextInputManagementService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "Themes",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "TieringEngineService",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "TimeBrokerSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "TokenBroker",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "TrkWks",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "TroubleshootingSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "TrustedInstaller",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "tzautoupdate",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "UdkUserSvc_64bd32",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "UmRdpService",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "UnistoreSvc_64bd32",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "upnphost",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "UserDataSvc_64bd32",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "UserManager",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "UsoSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "VaultSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "VBoxSDS",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "vds",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "vmcompute",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "vmicguestinterface",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "vmicheartbeat",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "vmickvpexchange",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "vmicrdv",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "vmicshutdown",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "vmictimesync",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "vmicvmsession",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "vmicvss",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "VSS",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "W32Time",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "WaaSMedicSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "WalletService",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "WarpJITSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "wbengine",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "WbioSrvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "Wcmsvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "wcncsvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "WdiServiceHost",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "WdiSystemHost",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "WdNisSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "WebClient",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "webthreatdefsvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "webthreatdefusersvc_64bd32",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "Wecsvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "WEPHOSTSVC",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "wercplsupport",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "WerSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "WFDSConMgrSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "whesvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "WiaRpc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "WinDefend",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "WinHttpAutoProxySvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "Winmgmt",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "WinRM",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "wisvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "WlanSvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "wlidsvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "wlpasvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "WManSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "wmiApSrv",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "WMIRegistrationService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "WMPNetworkSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "workfolderssvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "WpcMonSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "WPDBusEnum",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "WpnService",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "WpnUserService_64bd32",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "WSAIFabricSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "wscsvc",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "WSearch",
+      "state": "Running",
+      "start_type": null
+    },
+    {
+      "name": "wuauserv",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "wuqisvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "WwanSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "XblAuthManager",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "XblGameSave",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "XboxGipSvc",
+      "state": "Stopped",
+      "start_type": null
+    },
+    {
+      "name": "XboxNetApiSvc",
+      "state": "Stopped",
+      "start_type": null
+    }
+  ],
+  "suid_binaries": [],
+  "kernel_params": [],
+  "containers": [],
+  "collector_errors": []
+}

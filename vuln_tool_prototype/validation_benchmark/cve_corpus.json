@@ -1,0 +1,123 @@
+[
+  {
+    "cve": "CVE-2021-44228",
+    "package": "log4j-core",
+    "vuln": "2.14.1",
+    "fixed": "2.16.0",
+    "score": 10.0,
+    "tier": "CRITICAL",
+    "desc": "Apache Log4j2 JNDI features in affected log4j-core releases can allow attacker-controlled LDAP or other JNDI endpoints to lead to arbitrary code execution.",
+    "vendor": "apache",
+    "product": "log4j-core"
+  },
+  {
+    "cve": "CVE-2021-45046",
+    "package": "log4j-core",
+    "vuln": "2.15.0",
+    "fixed": "2.16.0",
+    "score": 9.0,
+    "tier": "CRITICAL",
+    "desc": "The incomplete fix for CVE-2021-44228 in Log4j 2.15.0 can permit information leakage or code execution in certain non-default configurations.",
+    "vendor": "apache",
+    "product": "log4j-core"
+  },
+  {
+    "cve": "CVE-2022-22965",
+    "package": "spring-framework",
+    "vuln": "5.3.17",
+    "fixed": "5.3.18",
+    "score": 9.8,
+    "tier": "CRITICAL",
+    "desc": "Spring MVC or WebFlux applications running on JDK 9+ can be vulnerable to remote code execution through data binding under affected deployment conditions.",
+    "vendor": "vmware",
+    "product": "spring-framework"
+  },
+  {
+    "cve": "CVE-2023-34362",
+    "package": "moveit-transfer",
+    "vuln": "2023.0.1",
+    "fixed": "2023.0.2",
+    "score": 9.8,
+    "tier": "CRITICAL",
+    "desc": "MOVEit Transfer before the fixed releases has a SQL injection vulnerability that can allow an unauthenticated attacker to access or modify database contents.",
+    "vendor": "progress",
+    "product": "moveit-transfer"
+  },
+  {
+    "cve": "CVE-2024-3400",
+    "package": "pan-os",
+    "vuln": "10.2.8",
+    "fixed": "10.2.9-h1",
+    "score": 10.0,
+    "tier": "CRITICAL",
+    "desc": "PAN-OS GlobalProtect has a command injection vulnerability that can allow an unauthenticated attacker to execute arbitrary code with root privileges on affected firewalls.",
+    "vendor": "paloaltonetworks",
+    "product": "pan-os"
+  },
+  {
+    "cve": "CVE-2022-37434",
+    "package": "zlib",
+    "vuln": "1.2.12",
+    "fixed": "1.2.13",
+    "score": 9.8,
+    "tier": "CRITICAL",
+    "desc": "zlib through 1.2.12 has a heap-based buffer over-read or buffer overflow in inflate via a large gzip header extra field; affected applications call inflateGetHeader.",
+    "vendor": "zlib",
+    "product": "zlib"
+  },
+  {
+    "cve": "CVE-2021-42013",
+    "package": "apache-httpd",
+    "vuln": "2.4.50",
+    "fixed": "2.4.51",
+    "score": 9.8,
+    "tier": "CRITICAL",
+    "desc": "Apache HTTP Server 2.4.50 has an insufficient fix for path traversal that can expose files and, with CGI enabled, permit remote code execution.",
+    "vendor": "apache",
+    "product": "http_server"
+  },
+  {
+    "cve": "CVE-2024-3094",
+    "package": "xz",
+    "vuln": "5.6.1",
+    "fixed": "5.6.2",
+    "score": 10.0,
+    "tier": "CRITICAL",
+    "desc": "Malicious code in upstream xz 5.6.0 and 5.6.1 source tarballs modifies liblzma during build and can affect software linked against the library.",
+    "vendor": "tukaani-project",
+    "product": "xz"
+  },
+  {
+    "cve": "CVE-2023-4863",
+    "package": "libwebp",
+    "vuln": "1.3.1",
+    "fixed": "1.3.2",
+    "score": 8.8,
+    "tier": "HIGH",
+    "desc": "A heap buffer overflow in libwebp can allow a remote attacker to perform an out-of-bounds memory write via a crafted HTML page.",
+    "vendor": "webmproject",
+    "product": "libwebp"
+  },
+  {
+    "cve": "CVE-2024-6387",
+    "package": "openssh-server",
+    "vuln": "9.7p1",
+    "fixed": "9.8p1",
+    "score": 8.1,
+    "tier": "HIGH",
+    "desc": "A race condition in OpenSSH sshd can be triggered by an unauthenticated remote attacker who fails to authenticate within a set time period.",
+    "vendor": "openssh",
+    "product": "openssh"
+  },
+  {
+    "cve": "CVE-2022-4911",
+    "package": "chrome",
+    "vuln": "106.0.5249.61",
+    "fixed": "106.0.5249.62",
+    "score": 6.5,
+    "tier": "MEDIUM",
+    "desc": "Insufficient data validation in Chrome DevTools can allow a remote attacker to bypass content security policy using a crafted HTML page.",
+    "vendor": "google",
+    "product": "chrome"
+  }
+]

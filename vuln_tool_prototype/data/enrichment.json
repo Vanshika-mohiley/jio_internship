@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-09T15:29:34.248834+00:00",
+  "source_collection": "C:\\Users\\vansh\\Documents\\Codex\\2026-09-09\\this-is-3rd-week-part-of\\windows_artifacts.json",
+  "source_index": "C:\\Users\\vansh\\Documents\\Codex\\2026-09-09\\this-is-3rd-week-part-of\\data\\nvd_index.db",
+  "network_used": false,
+  "packages_scanned": 1,
+  "packages_with_candidates": 1,
+  "matches": [
+    {
+      "package": "Git",
+      "installed_version": "2.50.1",
+      "confidence": "candidate_product_name",
+      "confirmed_vulnerability": false,
+      "candidates": [
+        {
+          "cve_id": "CVE-1999-1558",
+          "description": "Vulnerability in loginout in Digital OpenVMS 7.1 and earlier allows unauthorized access when external authentication is enabled.",
+          "cvss_score": 7.5,
+          "cvss_severity": "HIGH",
+          "vendor": "digital",
+          "product": "digital_openvms",
+          "criteria": "cpe:2.3:a:digital:digital_openvms:7.1:*:*:*:*:*:*:*",
+          "match_type": "candidate_product_name"
+        },
+        {
+          "cve_id": "CVE-1999-1558",
+          "description": "Vulnerability in loginout in Digital OpenVMS 7.1 and earlier allows unauthorized access when external authentication is enabled.",
+          "cvss_score": 7.5,
+          "cvss_severity": "HIGH",
+          "vendor": "digital",
+          "product": "digital_openvms_axp",
+          "criteria": "cpe:2.3:a:digital:digital_openvms_axp:7.1:*:*:*:*:*:*:*",
+          "match_type": "candidate_product_name"
+        }
+      ]
+    }
+  ],
+  "limitation": "Candidate product-name matches are not confirmed vulnerabilities. They require vendor/product and affected-version verification before reporting."
+}
