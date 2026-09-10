@@ -1,0 +1,5 @@
+pydantic>=2
+chromadb
+sentence-transformers
+streamlit
+pandas
