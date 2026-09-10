@@ -119,8 +119,8 @@ Compares base-model-only, RAG-only, and full-prototype configurations on the sam
 
 ### Prototype Architecture
 <p align="center">
-  <img src="./page1.png" width="45%">
-  <img src="./page2.png" width="45%">
+  <img src="images/page2.png" width="45%">
+  <img src="images/page2.png" width="45%">
 </p>
 
 ## Notes
