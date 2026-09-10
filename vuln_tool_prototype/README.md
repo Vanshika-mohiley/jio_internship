@@ -18,8 +18,6 @@ The alternative `engine.py` / `findings.py` implementation from the uploaded mat
 ## Real Day 3 run
 
 Start Ollama locally and make sure the selected model is already installed. Then run the project's end-to-end CLI. The assessment client is hardcoded to loopback `http://localhost:11434/api/generate`.
-![report image of day4 1]page1.png
-![report image of day4 2]page2.png
 ## Zero-egress evidence
 
 For the report, run the assessment while capturing traffic with Wireshark and show that the assessment process only communicates with loopback Ollama. Knowledge-base refresh/download scripts are separate maintenance steps and must not be run during the packet-capture assessment demonstration.
